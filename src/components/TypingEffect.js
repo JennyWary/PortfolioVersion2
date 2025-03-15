@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/ParallaxComponent.css';  // Assuming you still want some custom styling.
+import './css/ParallaxComponent.css';
 
 const words = ["WEB-DEVELOPER", "FRONTEND-DEVELOPER", "BACKEND-DEVELOPER", "FULLSTACK-DEVELOPER"];
 const typingSpeed = 200;
