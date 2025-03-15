@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import './css/ParallaxComponent.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/ParallaxComponent.css';  // Assuming you still want some custom styling.
 
 const words = ["WEB-DEVELOPER", "FRONTEND-DEVELOPER", "BACKEND-DEVELOPER", "FULLSTACK-DEVELOPER"];
 const typingSpeed = 200;
@@ -33,9 +34,9 @@ export default function TypingEffect() {
     }, [text, currentCharIndex, isDeleting, currentWordIndex]);
 
     return (
-        <div className="typewriter" id="typewriter">
-            <span id="text">{text}</span>
-            <span className="cursor">|</span>
+        <div className="d-flex align-items-center typewriter">
+            <span id="text" className="fs-3">{text}</span>
+            <span className="cursor ms-2">|</span>
         </div>
     );
 }
