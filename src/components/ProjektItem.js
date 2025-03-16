@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/ProjektItem.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Sprache from "./Sprache";
 
 export default function ProjektItem() {
     return (
@@ -8,7 +9,7 @@ export default function ProjektItem() {
             <div className="row text-center">
 
                 <div className="col-12">
-                    <img src="./image/laptop.jpg" alt="Code Beispiel" className="img-fluid" />
+                    <img src="./image/laptop.jpg" alt="Code Beispiel" className="img-fluid"/>
                 </div>
 
                 <div className="col-12 d-flex flex-column align-items-center justify-content-center">
@@ -17,6 +18,12 @@ export default function ProjektItem() {
                         Dies ist der Quellcode für meine persönliche Portfolio-Webseite. Die Webseite bietet einen
                         Überblick über meine beruflichen Erfahrungen, Projekte, Fähigkeiten und persönliche Interessen.
                     </p>
+                </div>
+
+                <div className="gap-3 col-12 d-flex align-items-start">
+                    <Sprache />
+                    <Sprache />
+                    <Sprache />
                 </div>
             </div>
         </div>

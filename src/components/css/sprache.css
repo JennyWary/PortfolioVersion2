@@ -1,0 +1,20 @@
+.sprache-container {
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    max-width: 100px;
+}
+
+.sprache-image {
+    /*width: 50px;*/
+    height: auto;
+}
+
+.sprache-text {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    /*color: white;*/
+}
