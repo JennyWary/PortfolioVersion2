@@ -1,10 +1,9 @@
 .sprache-container {
     display: flex;
     align-items: center;
-    background-color: orange;
     padding: 5px 15px 5px 15px;
     border-radius: 15px;
-    max-width: 100px;
+
 }
 
 .sprache-image {
@@ -13,8 +12,36 @@
 }
 
 .sprache-text {
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 18px;
     font-weight: bold;
     /*color: white;*/
+}
+
+.html{
+    background-color: #ED6131;
+}
+
+.css{
+    background-color: #0899DD;
+}
+
+.js{
+    background-color: #F1C129;
+}
+
+.bs{
+    background: #7B18F7;
+}
+
+.react{
+    background: #5ED3F3;
+}
+
+.php{
+    background: #7B7FB5;
+}
+
+.mysql{
+    background: #087993;
 }
