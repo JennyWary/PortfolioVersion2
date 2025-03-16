@@ -1,17 +1,27 @@
+.container{
+    margin-bottom: 20px;
+}
 .timeline-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    flex-direction: column;
+    align-items: flex-end;
+    grid-template-columns: auto ;
     justify-content: center;
     margin-top: 20px;
-    background-color: #0B0B0B;
     color: #f9f9f9;
+}
+.timeline-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .timeline {
     position: relative;
     border-left: 4px solid #AA4AF9;
     padding-left: 20px;
-    max-width: 600px;
+    /*max-width: 600px;*/
+    min-height: 300px;
 }
 
 .timeline-item {
@@ -55,7 +65,7 @@
 
 .space{
     width: 557px;
-    height: 259px;
+    /*height: 259px;*/
 }
 
 .color{

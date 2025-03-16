@@ -6,24 +6,26 @@ import Sprache from "./Sprache";
 export default function ProjektItem() {
     return (
         <div className="container mt-4 containerProjekt">
-            <div className="row text-center">
-
-                <div className="col-12">
-                    <img src="./image/laptop.jpg" alt="Code Beispiel" className="img-fluid"/>
+            <div className="row d-flex align-items-center">
+                {/* Bild auf der linken Seite */}
+                <div className="col-md-6 text-center">
+                    <img src="./image/laptop.jpg" alt="Code Beispiel" className="img-fluid rounded"/>
                 </div>
 
-                <div className="col-12 d-flex flex-column align-items-center justify-content-center">
-                    <h3 className="my-4 text-white">Titel</h3>
-                    <p className="text-white">
+                {/* Text und Sprachen auf der rechten Seite */}
+                <div className=" col-md-6 d-flex flex-column align-items-center text-white">
+                    <h3 className="my-3">Titel</h3>
+                    <p className="text-center">
                         Dies ist der Quellcode für meine persönliche Portfolio-Webseite. Die Webseite bietet einen
                         Überblick über meine beruflichen Erfahrungen, Projekte, Fähigkeiten und persönliche Interessen.
                     </p>
-                </div>
 
-                <div className="gap-3 col-12 d-flex align-items-start">
-                    <Sprache />
-                    <Sprache />
-                    <Sprache />
+                    {/* Sprachen unter dem Text */}
+                    <div className="d-flex gap-3">
+                        <Sprache />
+                        <Sprache />
+                        <Sprache />
+                    </div>
                 </div>
             </div>
         </div>
