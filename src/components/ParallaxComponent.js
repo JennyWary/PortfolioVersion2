@@ -6,10 +6,10 @@ import './css/ParallaxComponent.css';
 export default function ParallaxComponent() {
     return (
         <Parallax className="parallax-window" bgImage="./image/laptop.jpg" strength={500}>
-            <div className="text-container d-flex justify-content-center align-items-center text-center text-white" style={{ minHeight: '100vh' }}>
+            <div className="text-container d-flex justify-content-center align-items-center text-center text-white" >
                 <div className="text-bottom-left">
                     <h1 className="display-1">Hallo, Ich bin <br />
-                        <strong className="text-warning">Jennifer Bramadas</strong>
+                        <strong className="image-name">Jennifer Bramadas</strong>
                     </h1>
                     <TypingEffect />
                 </div>
