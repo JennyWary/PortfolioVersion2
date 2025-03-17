@@ -10,8 +10,6 @@ export default function Projekt() {
             <div className="row justify-content-center">
             <div className=" justify-content-between">
                     <ProjektItem />
-                    <ProjektItem />
-                    <ProjektItem />
                 </div>
             </div>
         </div>

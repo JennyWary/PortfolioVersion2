@@ -8,6 +8,15 @@ export default function TimeLine() {
     const infoData = [
         {
             date: "2021 – 2024",
+            title: "B-FACTOR GMBH",
+            details: [
+                "Ausbildung zur Fachinformatikerin für Anwendungsentwicklung",
+                "Aufbau tiefgreifender Kenntnisse und praktischer Erfahrung in der Webentwicklung",
+                "Anwendung verschiedener Technologien, darunter HTML, CSS, Javascript, PHP und TYPO3"
+            ]
+        },
+        {
+            date: "2021 – 2024",
             title: "IT.SCHULE STUTTGART",
             details: [
                 "Ausbildung zur Fachinformatikerin für Anwendungsentwicklung",
