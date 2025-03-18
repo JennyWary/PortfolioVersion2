@@ -17,12 +17,14 @@ export default function TechItem() {
 
     return (
         <div className="container-grid justify-content-center">
+            <div className="row justify-content-center">
             {items.map((item, index) => (
                 <div key={index} className="containerTech tech-item d-flex align-items-center p-3 m-2">
                     <img src={item.image} alt={item.name} className="sprache-image me-2"/>
                     <div className="text">{item.name}</div>
                 </div>
             ))}
+        </div>
         </div>
     );
 }

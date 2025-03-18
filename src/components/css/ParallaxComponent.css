@@ -20,7 +20,6 @@
     position: relative;
     z-index: 2;
     min-height: 100dvh;
-    padding: 0 15px;
 }
 
 .text-bottom-left {
