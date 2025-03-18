@@ -11,11 +11,14 @@ export default function InfoLinks({ info = [] }) {  // Fallback-Wert: leeres Arr
                         <div className="title h5">
                             <b>{item.title}</b>
                         </div>
-                        <ul>
-                            {item.details.map((detail, i) => (
-                                <li key={i} className="mb-1">{detail}</li>
-                            ))}
-                        </ul>
+                        <div dir="rtl">
+                            <ul>
+                                {item.details.map((detail, i) => (
+                                    <li key={i} className="mb-1">{detail}</li>
+                                ))}
+                            </ul>
+                        </div>
+
                     </div>
                 ))
             ) : (
