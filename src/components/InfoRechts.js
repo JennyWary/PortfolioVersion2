@@ -9,7 +9,7 @@ export default function Info({ info = [] }) {
 
             {info.length > 0 ? (
                 info.map((item, index) => (
-                    <div key={index} className="mb-3">
+                    <div key={index}>
                         <div className="date fw-bold">{item.date}</div>
                         <div className="title h5">
                             <b>{item.title}</b>
@@ -24,16 +24,6 @@ export default function Info({ info = [] }) {
             ) : (
                 <p>Keine Informationen verfügbar.</p>  // Fallback-Nachricht
             )}
-
-            {/*<div className="date fw-bold">{info.date}</div>*/}
-            {/*<div className="title h5">*/}
-            {/*    <b>{info.title}</b>*/}
-            {/*</div>*/}
-            {/*<ul>*/}
-            {/*    {info.details.map((detail, index) => (*/}
-            {/*        <li key={index} className="mb-1">{detail}</li>*/}
-            {/*    ))}*/}
-            {/*</ul>*/}
         </div>
     );
 }

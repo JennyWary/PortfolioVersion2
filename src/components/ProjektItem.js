@@ -40,7 +40,7 @@ export default function ProjektItem() {
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },
                 { name: "CSS", image: cssImage, farbe: "css" },
-                { name: "Bootstrap", image: bsImage, farbe: "bs" },
+                { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
 
             ]
         },
@@ -67,7 +67,7 @@ export default function ProjektItem() {
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },
                 { name: "CSS", image: cssImage, farbe: "css" },
-                { name: "Bootstrap", image: bsImage, farbe: "bs" },
+                { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
 
             ]
         },
