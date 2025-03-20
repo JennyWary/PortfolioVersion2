@@ -15,3 +15,9 @@
 .color{
     color: #AA4AF9;
 }
+
+.border-purple{
+    border-color: #AA4AF9;
+    border-width: 1px;
+    border-style: solid;
+}

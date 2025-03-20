@@ -44,7 +44,7 @@ export default function TimeLine() {
 
     return (
         <div className=" mb-100">
-            <h1 className="text-center mt-5 mb-4 display-3 color">Erfahrung</h1>
+            <h1 className="text-center mt-5 display-3 color mb-100">Erfahrung</h1>
             <div className="timeline-container">
                 {infoData.map((item, index) => (
                     <div key={index} className="timeline-row">

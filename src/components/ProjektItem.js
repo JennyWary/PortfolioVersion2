@@ -55,6 +55,8 @@ export default function ProjektItem() {
                 { name: "HTML", image: htmlImage, farbe: "html" },
                 { name: "CSS", image: cssImage, farbe: "css" },
                 { name: "JAVASCRIPT", image: jsImage, farbe: "js" },
+                { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
+
             ],
 
         },
@@ -87,20 +89,19 @@ export default function ProjektItem() {
     ];
 
     return (
-        <div className="container mt-4 containerProjekt">
+        <div className="container mt-4 containerProjekt ">
             {ProjektData.map((item, index) => (
-                <div className="row d-flex align-items-center mb-4" key={index}>
+                <div className="row d-flex align-items-center mb-50" key={index}>
                     {/* Bild */}
                     <div className="col-md-6 text-center">
-                        <img src={item.image} alt="Projekt" className="img-fluid rounded border"/>
+                        <img src={item.image} alt="Projekt" className="img-fluid rounded border-purple"/>
                     </div>
 
                     {/* Text und Sprachen */}
                     <div className="col-md-6 d-flex flex-column text-white">
-
                         <h3 className="my-3 d-flex flex-column align-items-center ">{item.titel}</h3>
                         {item.text.map((line, i) => (
-                            <p className="text-center" key={i}>{line}</p>
+                            <p className="ml-20" key={i}>{line}</p>
                         ))}
 
                         {/* Dynamische Darstellung der Sprachen */}
