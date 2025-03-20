@@ -16,11 +16,11 @@ import mysqlImage from "./image/mysql.png";
 export default function ProjektItem() {
     const ProjektData = [
         {
-            image: "./image/tomorrows-filmwork.png",
+            image: "./image/tomorrowsFilmwork.gif",
             titel: "PORTFOLIO VERSION2",
             text: [
-                "Dies ist der Quellcode für meine persönliche Portfolio-Webseite. " +
-                "Die Webseite bietet einen Überblick über meine beruflichen Erfahrungen, Projekte, Fähigkeiten und persönliche Interessen."
+                "Ein Portfolio das eine moderne und responsive Benutzeroberfläche bietet. " +
+                "Es enthält ein ansprechendes Design und eine übersichtliche Darstellung meiner Projekte und Fähigkeiten."
             ],
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },
@@ -31,7 +31,7 @@ export default function ProjektItem() {
             ]
         },
         {
-            image: "./image/tomorrows-filmwork.png",
+            image: "./image/tomorrowsFilmwork.gif",
             titel: "TOMORROWS FILMWORK",
             text: [
                 "Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten. " +
@@ -45,10 +45,11 @@ export default function ProjektItem() {
             ]
         },
         {
-            image: "./image/portfolio.png",
+            image: "./image/tomorrowsFilmwork.gif",
             titel: "PORTFOLIO",
             text: [
-                "Dies ist der Quellcode für meine persönliche Portfolio-Webseite. Die Webseite bietet einen Überblick über meine beruflichen Erfahrungen, Projekte, Fähigkeiten und persönliche Interessen."
+                "Entwicklung einer modernen und responsiven Portfolio-Webseite mit HTML, CSS und Javascript. " +
+                "Die Webseite bietet einen übersichtlichen Einblick in meine beruflichen Erfahrungen, Projekte, Fähigkeiten und persönlichen Interessen"
             ],
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },
@@ -58,11 +59,10 @@ export default function ProjektItem() {
 
         },
         {
-            image: "./image/tomorrows-filmwork.png",
+            image: "./image/tomorrowsFilmwork.gif",
             titel: "LANDING PAGE",
             text: [
-                "Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten. " +
-                "Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren."
+                "Entwicklung eines Prototyps für die Landing Page eines Start-ups mit Fokus auf eine kundenorientierte Umsetzung. Die Realisierung erfolgte mit HTML, CSS und Bootstrap."
             ],
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },
@@ -72,11 +72,10 @@ export default function ProjektItem() {
             ]
         },
         {
-            image: "./image/tomorrows-filmwork.png",
+            image: "./image/tomorrowsFilmwork.gif",
             titel: "BLOG WEBSEITE",
             text: [
-                "Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten. " +
-                "Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren."
+                "Design und Entwicklung einer klassischen Blog-Webseite mit Anmelde- und Kommentarfunktion. Die Umsetzung erfolgte mit HTML, CSS, PHP und SQL."
             ],
             sprache: [
                 { name: "HTML", image: htmlImage, farbe: "html" },

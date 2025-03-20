@@ -6,7 +6,7 @@ import TechItem from "./TechItem";
 export default function Tech(){
     return(
         <div className="containerTechStack">
-            <h1 className="text-center mb-4 display-3 color">Tech-Stack</h1>
+            <h1 className="text-center mt-5 mb-100 display-3 color">Projekte</h1>
             <TechItem/>
         </div>
     )

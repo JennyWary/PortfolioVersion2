@@ -10,3 +10,25 @@
 .title{
     margin-bottom: 10px;
 }
+
+@media (max-width: 1404px) {
+    .info-container {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .info-container{
+        max-width: 450px;
+
+    }
+}
+
+@media (max-width: 990px) {
+
+    .info-container{
+        max-width: 400px;
+
+    }
+}

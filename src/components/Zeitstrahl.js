@@ -43,7 +43,7 @@ export default function TimeLine() {
     ];
 
     return (
-        <div className="container mb-100">
+        <div className=" mb-100">
             <h1 className="text-center mt-5 mb-4 display-3 color">Erfahrung</h1>
             <div className="timeline-container">
                 {infoData.map((item, index) => (
