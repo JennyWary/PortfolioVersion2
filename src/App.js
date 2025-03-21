@@ -5,6 +5,7 @@ import SmallParallax from "./components/SmallParallax";
 import Projekt from "./components/Projekt";
 import Tech from "./components/Tech";
 import Footer from "./components/Footer";
+import Social from "./components/Social";
 function App() {
   return (
       <div>
@@ -15,6 +16,7 @@ function App() {
           <SmallParallax image="./image/laptopcode.jpg" />
           <Tech />
           <Footer />
+          <Social />
       </div>
 
   );

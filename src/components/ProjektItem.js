@@ -11,7 +11,6 @@ import bsImage from "./image/bs.png";
 import reactImage from "./image/react.png";
 import phpImage from "./image/php.png";
 import mysqlImage from "./image/mysql.png";
-// import typo3Image from "./image/typo3.png";
 
 export default function ProjektItem() {
     const ProjektData = [
@@ -45,7 +44,7 @@ export default function ProjektItem() {
             ]
         },
         {
-            image: "./image/tomorrowsFilmwork.gif",
+            image: "./image/portfolio.gif",
             titel: "PORTFOLIO",
             text: [
                 "Entwicklung einer modernen und responsiven Portfolio-Webseite mit HTML, CSS und Javascript. " +
