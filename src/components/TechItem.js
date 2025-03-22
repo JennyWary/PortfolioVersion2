@@ -16,7 +16,7 @@ export default function TechItem() {
     ];
 
     return (
-        <div className=" row justify-content-center">
+        <div className="container-grid row justify-content-center">
 
             {items.map((item, index) => (
                 <div key={index} className="containerTech tech-item d-flex align-items-center p-3 m-2">

@@ -21,3 +21,11 @@
     border-width: 1px;
     border-style: solid;
 }
+
+@media (max-width: 450px) {
+
+    .text-r{
+        font-size: 14px;
+
+    }
+}

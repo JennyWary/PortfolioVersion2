@@ -3,8 +3,6 @@
     align-items: center;
     padding: 3px 15px 3px 10px;
     border-radius: 15px;
-
-
 }
 
 .sprache-image {
@@ -18,30 +16,48 @@
     /*color: white;*/
 }
 
-.html{
-    background-color: #ED6131;
+.html { background-color: #ED6131; }
+.css { background-color: #0899DD; }
+.js { background-color: #F1C129; }
+.bs { background: #7B18F7; }
+.react { background: #5ED3F3; }
+.php { background: #7B7FB5; }
+.mysql { background: #087993; }
+
+@media (max-width: 831px) {
+
+    .sprache-text {
+        margin-left: 5px;
+        font-size: 8px;
+        font-weight: bold;
+    }
 }
 
-.css{
-    background-color: #0899DD;
+@media (max-width: 435px) {
+
+    .sprache-text {
+        margin-left: 5px;
+        font-size: 8px;
+        font-weight: bold;
+    }
 }
 
-.js{
-    background-color: #F1C129;
-}
 
-.bs{
-    background: #7B18F7;
-}
+@media (max-width: 401px) {
+    .sprache-container {
+        display: flex;
+        align-items: center;
+        padding: 3px 10px 3px 5px;
+        border-radius: 15px;
+    }
 
-.react{
-    background: #5ED3F3;
-}
+    .sprache-text {
+        margin-left: 2px;
+        font-size: 6px;
+        font-weight: bold;
+    }
+    .sprache-image {
+        max-width: 10px;
+    }
 
-.php{
-    background: #7B7FB5;
-}
-
-.mysql{
-    background: #087993;
 }
