@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/Timeline.css";
+import "./css/Zeitstrahl.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import InfoRechts from "../components/InfoRechts";
 import InfoLinks from "../components/InfoLinks";
@@ -43,13 +43,12 @@ export default function TimeLine() {
     ];
 
     return (
-        <div className=" mb-100">
+        <div className="mb-100">
             <h1 className="text-center mt-5 display-3 color mb-100">Erfahrung</h1>
-            <div className="timeline-container">
                 {infoData.map((item, index) => (
-                    <div key={index} className="timeline-row">
+                    <div key={index} className="timeline-container" >
                         {index % 2 === 0 ? (
-                            <>
+                            < >
                                 <InfoLinks info={[item]} />
                                 <div className="timeline">
                                     <div className="timeline-dot"></div>
@@ -57,7 +56,7 @@ export default function TimeLine() {
                                 <div className="space"></div>
                             </>
                         ) : (
-                            <>
+                            < >
                                 <div className="space"></div>
                                 <div className="timeline">
                                     <div className="timeline-dot"></div>
@@ -67,7 +66,6 @@ export default function TimeLine() {
                         )}
                     </div>
                 ))}
-            </div>
         </div>
     );
 }

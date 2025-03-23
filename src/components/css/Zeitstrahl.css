@@ -1,0 +1,149 @@
+
+.info-container {
+    min-width: auto;
+}
+
+.date{
+    color: #AA4AF9;
+    margin-bottom: 25px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.timeline-container {
+    display: grid;
+    flex-direction: column;
+    align-items: flex-end;
+    grid-template-columns: 1fr auto 1fr;
+    justify-content: center;
+    color: #f9f9f9;
+}
+.timeline-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.timeline {
+    position: relative;
+    border-left: 4px solid #AA4AF9;
+    /*padding-left: 20px;*/
+    /*width: 2px;*/
+    height: 100%;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 1em;
+    height: 1em;
+    background-color: #AA4AF9;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.timeline-content span {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.timeline-content p {
+    margin-top: 5px;
+    color: #333;
+}
+
+.space{width: 100%}
+
+.color{color: #AA4AF9;}
+
+.mb-100{margin-bottom: 5%;}
+
+.mb-50{margin-bottom: 50px;}
+
+.ml-20{margin-left: 20px;}
+
+/*RESPONSIVE*/
+
+@media (max-width: 566px) {
+    .title{
+        font-size: 0.9em;
+    }
+    .detail{
+        font-size: 0.8em;
+    }
+
+    .date{
+        font-size: 0.6em;
+        margin-bottom: 18px;
+    }
+
+    .timeline {
+        position: relative;
+        border-left: 2px solid #AA4AF9;
+        height: 100%;
+    }
+
+    .timeline-dot {
+        position: absolute;
+        left: -7px;
+        top: 1px;
+        width: 0.7em;
+        height: 0.7em;
+        background-color: #AA4AF9;
+        border-radius: 50%;
+    }
+
+}
+
+@media (max-width: 493px) {
+    .title{
+        font-size: 0.7em;
+    }
+    .detail{
+        font-size: 0.6em;
+    }
+
+    .date{
+        font-size: 0.5em;
+        margin-bottom: 16px;
+    }
+
+    ul{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 326px) {
+    .title{
+        font-size: 0.6em;
+    }
+    .detail{
+        font-size: 0.5em;
+    }
+
+    .date{
+        font-size: 0.4em;
+        margin-bottom: 16px;
+    }
+
+    ul{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
