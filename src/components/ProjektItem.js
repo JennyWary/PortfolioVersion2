@@ -100,7 +100,7 @@ export default function ProjektItem() {
                     <div className="col-md-6 d-flex flex-column text-white">
                         <h3 className="my-3 d-flex flex-column align-items-center ">{item.titel}</h3>
                         {item.text.map((line, i) => (
-                            <p className="ml-20 text-r" key={i}>{line}</p>
+                            <p className="text-r" key={i}>{line}</p>
                         ))}
 
                         {/* Dynamische Darstellung der Sprachen */}

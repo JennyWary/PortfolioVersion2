@@ -5,7 +5,7 @@ import ProjektItem from "./ProjektItem";
 
 export default function Projekt() {
     return (
-        <div>
+        <>
             <h1 className="text-center mt-5 display-3 color mb-100">Projekte</h1>
             <div className="row justify-content-center">
                 <div className=" justify-content-between">
@@ -13,6 +13,6 @@ export default function Projekt() {
                 </div>
             </div>
             <ProjektItem/>
-        </div>
+        </>
     );
 }

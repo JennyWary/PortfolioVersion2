@@ -22,7 +22,8 @@
     border-style: solid;
 }
 
-@media (max-width: 450px) {
+
+@media (max-width: 992px) {
 
     .text-r{
         font-size: 14px;
