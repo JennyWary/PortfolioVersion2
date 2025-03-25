@@ -4,8 +4,9 @@
 }
 
 .date{
-    color: #AA4AF9;
+    color: #0055ff;
     margin-bottom: 25px;
+    font-size: 0.8em;
 }
 
 .title{
@@ -28,7 +29,7 @@
 
 .timeline {
     position: relative;
-    border-left: 4px solid #AA4AF9;
+    border-left: 2px solid #0055ff;
     /*padding-left: 20px;*/
     /*width: 2px;*/
     height: 100%;
@@ -36,11 +37,11 @@
 
 .timeline-dot {
     position: absolute;
-    left: -10px;
+    left: -8px;
     top: 5px;
-    width: 1em;
-    height: 1em;
-    background-color: #AA4AF9;
+    width: 0.9em;
+    height: 0.9em;
+    background-color: #0055ff;
     border-radius: 50%;
 }
 
@@ -69,11 +70,11 @@
 
 .space{width: 100%}
 
-.color{color: #AA4AF9;}
+.color{color: #0055ff;}
 
 .mb-100{margin-bottom: 5%;}
 
-.mb-50{margin-bottom: 50px;}
+.mb-50{margin-bottom: 100px;}
 
 .ml-20{margin-left: 20px;}
 
@@ -94,7 +95,6 @@
 
     .timeline {
         position: relative;
-        border-left: 2px solid #AA4AF9;
         height: 100%;
     }
 
@@ -104,7 +104,6 @@
         top: 1px;
         width: 0.7em;
         height: 0.7em;
-        background-color: #AA4AF9;
         border-radius: 50%;
     }
 

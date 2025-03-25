@@ -1,7 +1,7 @@
 import { Parallax } from "react-parallax";
 import TypingEffect from "./TypingEffect";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/ParallaxComponent.css';
+import './ParallaxComponent.css';
 
 export default function ParallaxComponent() {
     return (

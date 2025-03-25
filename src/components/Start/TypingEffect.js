@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/ParallaxComponent.css';
+import './ParallaxComponent.css';
 
 const words = ["WEB-DEVELOPER", "FRONTEND-DEVELOPER", "BACKEND-DEVELOPER", "FULLSTACK-DEVELOPER"];
 const typingSpeed = 200;

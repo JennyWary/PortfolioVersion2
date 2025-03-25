@@ -1,8 +1,8 @@
 import React from "react";
-import "./css/Zeitstrahl.css";
+import "./Zeitstrahl.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import InfoRechts from "../components/InfoRechts";
-import InfoLinks from "../components/InfoLinks";
+import InfoRechts from "./InfoRechts";
+import InfoLinks from "./InfoLinks";
 
 export default function TimeLine() {
     const infoData = [
@@ -44,7 +44,7 @@ export default function TimeLine() {
 
     return (
         <div className="mb-100">
-            <h1 className="text-center mt-5 display-3 color mb-100">Erfahrung</h1>
+            <h1 className="text-center mt-5 display-3 text-white fw-medium mb-100">Erfahrung</h1>
                 {infoData.map((item, index) => (
                     <div key={index} className="timeline-container" >
                         {index % 2 === 0 ? (

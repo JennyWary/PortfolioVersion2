@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/SmallParallax.css';
+import './SmallParallax.css';
 
 export default function SmallParallax({ image }) {
     return (

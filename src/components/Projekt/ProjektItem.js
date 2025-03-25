@@ -1,21 +1,21 @@
 import React from "react";
-import "./css/ProjektItem.css";
+import "./ProjektItem.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sprache from "./Sprache";
 
 // Sprach-Icons importieren
-import htmlImage from "./image/html.png";
-import cssImage from "./image/css.png";
-import jsImage from "./image/js.png";
-import bsImage from "./image/bs.png";
-import reactImage from "./image/react.png";
-import phpImage from "./image/php.png";
-import mysqlImage from "./image/mysql.png";
+import htmlImage from "../image/html.png";
+import cssImage from "../image/css.png";
+import jsImage from "../image/js.png";
+import bsImage from "../image/bs.png";
+import reactImage from "../image/react.png";
+import phpImage from "../image/php.png";
+import mysqlImage from "../image/mysql.png";
 
 export default function ProjektItem() {
     const ProjektData = [
         {
-            image: "./image/tomorrowsFilmwork.gif",
+            image: "./image/portfolioV2.gif",
             titel: "PORTFOLIO VERSION2",
             text: [
                 "Ein Portfolio das eine moderne und responsive Benutzeroberfläche bietet. " +
@@ -60,7 +60,7 @@ export default function ProjektItem() {
 
         },
         {
-            image: "./image/tomorrowsFilmwork.gif",
+            image: "./image/commingSoon.png",
             titel: "LANDING PAGE",
             text: [
                 "Entwicklung eines Prototyps für die Landing Page eines Start-ups mit Fokus auf eine kundenorientierte Umsetzung. Die Realisierung erfolgte mit HTML, CSS und Bootstrap."
@@ -73,7 +73,7 @@ export default function ProjektItem() {
             ]
         },
         {
-            image: "./image/tomorrowsFilmwork.gif",
+            image: "./image/commingSoon.png",
             titel: "BLOG WEBSEITE",
             text: [
                 "Design und Entwicklung einer klassischen Blog-Webseite mit Anmelde- und Kommentarfunktion. Die Umsetzung erfolgte mit HTML, CSS, PHP und SQL."
@@ -90,20 +90,18 @@ export default function ProjektItem() {
     return (
         <div className="container mt-4 containerProjekt ">
             {ProjektData.map((item, index) => (
-                <div className="row d-flex align-items-center mb-50" key={index}>
-                    {/* Bild */}
+                <div className="row d-flex align-items-center mb-50 " key={index}>
+
                     <div className="col-md-6 text-center">
                         <img src={item.image} alt="Projekt" className="img-fluid rounded border-purple"/>
                     </div>
 
-                    {/* Text und Sprachen */}
                     <div className="col-md-6 d-flex flex-column text-white">
                         <h3 className="my-3 d-flex flex-column align-items-center ">{item.titel}</h3>
                         {item.text.map((line, i) => (
                             <p className="text-r" key={i}>{line}</p>
                         ))}
 
-                        {/* Dynamische Darstellung der Sprachen */}
                         <div className="d-flex gap-3">
                             {item.sprache.map((lang, i) => (
                                 <Sprache key={i} name={lang.name} image={lang.image} farbe={lang.farbe} />

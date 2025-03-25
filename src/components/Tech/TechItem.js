@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/TechItem.css";
+import "./TechItem.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function TechItem() {

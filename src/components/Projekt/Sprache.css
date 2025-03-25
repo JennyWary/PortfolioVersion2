@@ -11,8 +11,9 @@
 
 .sprache-text {
     margin-left: 5px;
-    font-size: 8px;
+    font-size: 9px;
     font-weight: bold;
+    color: #f9f9f9;
 }
 
 .html { background-color: #ED6131; }
@@ -32,17 +33,26 @@
     }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 766px) {
+    .sprache-container {
+        display: flex;
+        align-items: center;
+        padding: 3px 15px 3px 7px;
+        border-radius: 15px;
+    }
 
     .sprache-text {
-        margin-left: 5px;
         font-size: 8px;
         font-weight: bold;
     }
+    .sprache-image {
+        max-width: 13px;
+    }
+
 }
 
 
-@media (max-width: 401px) {
+@media (max-width: 452px) {
     .sprache-container {
         display: flex;
         align-items: center;

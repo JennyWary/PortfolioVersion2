@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/Info.css';
+import './Zeitstrahl.css';
 
 export default function InfoLinks({ info = [] }) {  // Fallback-Wert: leeres Array []
     return (

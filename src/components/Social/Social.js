@@ -1,6 +1,6 @@
-import github from "./image/social/github.png";
-import linkedin from "./image/social/linkedin.png";
-import "./css/Social.css";
+import github from "../image/social/github.png";
+import linkedin from "../image/social/linkedin.png";
+import "./Social.css";
 
 const FixedSocialIcons = () => {
     return (

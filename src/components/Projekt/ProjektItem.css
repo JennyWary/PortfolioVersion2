@@ -1,3 +1,7 @@
+/**{*/
+/*    font-family: arial, serif;*/
+/*}*/
+
 .containerProjekt{
     margin-bottom: 60px;
 }
@@ -13,20 +17,15 @@
 }
 
 .color{
-    color: #AA4AF9;
+    color: #0055ff;
 }
 
 .border-purple{
-    border-color: #AA4AF9;
-    border-width: 1px;
-    border-style: solid;
+    border: #0055ff 3px solid;
 }
 
 
 @media (max-width: 992px) {
 
-    .text-r{
-        font-size: 14px;
-
-    }
+    .text-r{font-size: 14px;}
 }
