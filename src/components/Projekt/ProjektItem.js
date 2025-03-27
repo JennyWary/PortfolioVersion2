@@ -15,6 +15,21 @@ import mysqlImage from "../image/mysql.png";
 export default function ProjektItem() {
     const ProjektData = [
         {
+            image: "./image/tomorrowsFilmwork.gif",
+            titel: "TOMORROWS FILMWORK",
+            text: [
+                "Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten. " +
+                "Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren."
+            ],
+            sprache: [
+                { name: "HTML", image: htmlImage, farbe: "html" },
+                { name: "CSS", image: cssImage, farbe: "css" },
+                { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
+
+            ],
+            link: "https://tomorrows-filmwork.com/",
+        },
+        {
             image: "./image/portfolioV2.gif",
             titel: "PORTFOLIO VERSION2",
             text: [
@@ -27,22 +42,10 @@ export default function ProjektItem() {
                 { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
                 { name: "REACT", image: reactImage, farbe: "react" },
 
-            ]
-        },
-        {
-            image: "./image/tomorrowsFilmwork.gif",
-            titel: "TOMORROWS FILMWORK",
-            text: [
-                "Entwicklung einer professionellen Portfolio-Webseite für einen Videoproduzenten. " +
-                "Diese Website wurde entwickelt, um das Portfolio eines freiberuflichen Videoproduzenten optimal zu präsentieren."
             ],
-            sprache: [
-                { name: "HTML", image: htmlImage, farbe: "html" },
-                { name: "CSS", image: cssImage, farbe: "css" },
-                { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
-
-            ]
+            link: "",
         },
+
         {
             image: "./image/portfolio.gif",
             titel: "PORTFOLIO",
@@ -70,7 +73,7 @@ export default function ProjektItem() {
                 { name: "CSS", image: cssImage, farbe: "css" },
                 { name: "BOOTSTRAP", image: bsImage, farbe: "bs" },
 
-            ]
+            ],
         },
         {
             image: "./image/commingSoon.png",
@@ -83,7 +86,8 @@ export default function ProjektItem() {
                 { name: "CSS", image: cssImage, farbe: "css" },
                 { name: "PHP", image: phpImage, farbe: "php" },
                 { name: "MYSQL", image: mysqlImage, farbe: "mysql" },
-            ]
+            ],
+
         },
     ];
 
@@ -92,10 +96,9 @@ export default function ProjektItem() {
             {ProjektData.map((item, index) => (
                 <div className="row d-flex align-items-center mb-50 " key={index}>
 
-                    <div className="col-md-6 text-center">
-                        <img src={item.image} alt="Projekt" className="img-fluid rounded border-purple"/>
-                    </div>
-
+                    <a href={item.link} className="col-md-6 text-center">
+                            <img src={item.image} alt="Projekt" className="img-fluid rounded border-purple"/>
+                    </a>
                     <div className="col-md-6 d-flex flex-column text-white">
                         <h3 className="my-3 d-flex flex-column align-items-center ">{item.titel}</h3>
                         {item.text.map((line, i) => (

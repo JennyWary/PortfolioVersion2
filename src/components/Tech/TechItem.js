@@ -6,7 +6,7 @@ export default function TechItem() {
     const items = [
         { image: "./image/tech/html.png", name: "HTML" },
         { image: "./image/tech/css.png", name: "CSS" },
-        { image: "./image/tech/JS.png", name: "JAVASCRIPT" },
+        { image: "./image/tech/js.png", name: "JAVASCRIPT" },
         { image: "./image/tech/php.png", name: "PHP" },
         { image: "./image/tech/java.png", name: "JAVA" },
         { image: "./image/tech/mysql.png", name: "MYSQL" },
