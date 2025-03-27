@@ -24,6 +24,11 @@
     border: #0055ff 3px solid;
 }
 
+.darken {
+    filter: brightness(50%);
+    transition: filter 0.3s ease-in-out;
+}
+
 
 @media (max-width: 992px) {
 
